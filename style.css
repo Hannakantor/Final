@@ -57,9 +57,16 @@ h3{
     right: 10px;
 }
 
-.pyk {transform: translate(-60%, -290%);}
-.podpaz {transform: translate(-60%, -275%);}
-.contactform {width: 390px; transform: translate(-120%, 7%);}
+p {
+    font-size: 13px;
+}
+
+label {
+    font-size:13px;
+}
+.pyk {transform: translate(-72%, -335%);}
+.podpaz {transform: translate(-72%, -280%);}
+.contactform {width: 386px; transform: translate(-120%, 7%);}
 
  input {
   width: 160px;
@@ -92,14 +99,14 @@ input[type=submit]:hover {
     padding-top: 0px;
 padding-right: 875px;
 padding-bottom: 0px;
-padding-left: 875px; 875px 0px;
+padding-left: 875px; 
 float: right;}
 .malben3{
     position:absolute;
         padding-top: 190px;
 padding-right: 875px;
 padding-bottom: 0px;
-padding-left: 875px; 875px 0px;
+padding-left: 875px; 
 float: right;}
 .malben4{    position:absolute;
 padding-top: 0px;
@@ -160,7 +167,7 @@ a.readmore:hover, a.readmore:active{
 }
 
 .direction a{
-    color: #72716d
+    color: #72716d;
     font-size: 13px;
 }
 
@@ -224,11 +231,6 @@ color:#005ca0;
     
 }
     
-
-
-
-
-
 
 .flex{
     display: flex;
