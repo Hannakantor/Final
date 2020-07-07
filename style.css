@@ -92,14 +92,14 @@ input[type=submit]:hover {
     padding-top: 0px;
 padding-right: 875px;
 padding-bottom: 0px;
-padding-left: 875px, 0px;
+padding-left: 875px; 875px 0px;
 float: right;}
 .malben3{
     position:absolute;
         padding-top: 190px;
 padding-right: 875px;
 padding-bottom: 0px;
-padding-left: 875px, 0px;
+padding-left: 875px; 875px 0px;
 float: right;}
 .malben4{    position:absolute;
 padding-top: 0px;
@@ -160,7 +160,7 @@ a.readmore:hover, a.readmore:active{
 }
 
 .direction a{
-    color: #72716d;
+    color: #72716d
     font-size: 13px;
 }
 
@@ -234,7 +234,9 @@ color:#005ca0;
     display: flex;
 }
 
-.dropdown-content{
+.dropdown-content a:hover{
+    text-decoration:underline;
+    color:#005ca0;
 
 }
 
@@ -321,7 +323,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 
 .textbox{
     width: 126px;
